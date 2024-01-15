@@ -21,5 +21,8 @@ urlpatterns = [
     path('',views.home,name="Home"),
     path('demo/',include('demoapp.urls')),
     path('myapp/',include('myapp.urls')),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
+    path('hello/', include('sayhelloapp.urls')),
+    path('demotest/',include('demotest.urls')),
+    path('allmethod/',include('allrequestobject.urls'))
 ]

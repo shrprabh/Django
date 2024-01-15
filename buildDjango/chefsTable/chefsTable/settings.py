@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'demoapp',
     'homeapp',
     'myapp',
+    'sayhelloapp',
+    'demotest',
+    'allrequestobject'
 ]
 
 MIDDLEWARE = [
